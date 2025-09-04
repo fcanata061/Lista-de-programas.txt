@@ -1,0 +1,163 @@
+------------/////////////////=========---------
+Programas base do lfs
+---------'zz///////////////---------
+Acl-2.3.1
+Attr-2.5.1
+Autoconf-2.71
+Automake-1.16.5
+Bash-5.2.15
+Bc-6.2.4
+Binutils-2.40
+Bison-3.8.2
+Bzip2-1.0.8
+Coreutils-9.1
+DejaGNU-1.6.3
+Diffutils-3.9
+E2fsprogs-1.47.0
+Elfutils-0.188
+Eudev-3.2.11
+Expat-2.5.0
+Expect-5.45.4
+File-5.44
+Findutils-4.9.0
+Gawk-5.2.1
+GCC-12.2.0
+GDBM-1.23
+Gettext-0.21
+Glibc-2.37
+GMP-6.2.1
+Gperf-3.1
+Grep-3.8
+Groff-1.22.4
+GRUB-2.06
+Gzip-1.12
+Iana-Etc-20230202
+Inetutils-2.3
+Intltool-0.51.0
+IPRoute2-6.1.0
+Kbd-2.5.1
+Kmod-30
+Less-608
+Libcap-2.67
+Libelf (parte do Elfutils-0.188)
+Libffi-3.4.4
+Libpipeline-1.5.7
+Libtool-2.4.7
+Linux-6.1.11
+M4-1.4.19
+Make-4.4
+Man-DB-2.11.2
+Man-pages-6.03
+Meson-1.0.0
+Ncurses-6.4
+Ninja-1.11.1
+Openssl-3.0.8
+Patch-2.7.6
+Perl-5.36.0
+Pkg-config-0.29.2
+Procps-ng-4.0.2
+Psmisc-23.6
+Python-3.11.2
+Readline-8.2
+Sed-4.9
+Shadow-4.13
+Sysklogd-1.5.1
+Sysvinit-3.06
+Tar-1.34
+Tcl-8.6.13
+Texinfo-7.0.2
+Time Zone Data (tzdata2022g)
+Util-linux-2.38.1
+Vim-9.0.1273
+Wheel (Python) - incluído com Python
+XML::Parser-2.46 (módulo Perl)
+Xz-5.4.1
+Zlib-1.2.13
+Zstd-1.5.4
+
+-------/////////////////////----------------#
+### Compiladores e Ferramentas Extras
+CMake        (sistema de build moderno, usado por KDE, LLVM, etc.)
+Meson        (muitos pacotes GNOME usam)
+Ninja        (backend rápido para Meson)
+LLVM/Clang   (alguns pacotes gráficos, navegadores e drivers usam)
+Rustc        (compilador Rust, necessário para Firefox, librsvg, etc.)
+Cargo        (gerenciador de pacotes do Rust)
+Go           (alguns softwares modernos dependem de Go, ex: Docker, Podman)
+Java (JDK)   (alguns pacotes ainda usam, ex: Ant, Maven, LibreOffice)
+Ant          (ferramenta de build para projetos Java)
+Maven        (build e dependências em projetos Java)
+Node.js      (necessário para Electron apps e algumas builds do GNOME)
+Yarn / NPM   (gerenciadores de pacotes JS)
+
+### Ferramentas de Desenvolvimento e Teste
+Flex         (gerador de analisador léxico)
+Bison        (gerador de parser, já no LFS)
+M4           (macro processor, já no LFS)
+Pkg-config   (já no LFS, mas indispensável)
+Gperf        (já no LFS, usado em bibliotecas gráficas)
+Valgrind     (debug e análise de memória)
+Strace       (debug de chamadas de sistema)
+GDB          (depurador, já no LFS)
+
+### Linguagens de Script (para build system)
+Python3 + Pip  (amplamente usado em scripts de build, já no LFS)
+Perl           (já no LFS, mas usado em muitos pacotes ainda)
+Tcl            (já no LFS, necessário em testes de alguns pacotes)
+Ruby           (alguns projetos GNOME e ferramentas usam)
+
+-----------//////////////////////------------------------------------------
+### Sistema Gráfico (Xorg)
+Xorg-Server
+Xorg-Drivers (video, input)
+Xorg-Libraries
+Xorg-Applications (xclock, xterm, xinit, etc.)
+Mesa (renderização 3D)
+Libdrm
+Wayland (opcional, se quiser compatibilidade)
+Fonts (xorg-fonts, dejavu, liberation)
+
+### Áudio
+ALSA-Lib
+ALSA-Utils
+Pulseaudio ou PipeWire
+Libogg
+Libvorbis
+Flac
+
+### Rede
+NetworkManager (ou dhcpcd + wpa_supplicant)
+Iptables/Nftables
+OpenSSH
+Curl
+Wget
+
+### Sistema e Utilitários
+D-Bus
+Udisks2
+Polkit
+Avahi
+Gparted (opcional, gerenciador de partições)
+Pcmanfm (ou outro gerenciador de arquivos leve)
+
+### Terminal / Shell
+Xterm
+Rxvt-unicode
+Bash-Completion
+
+### Editores e Desenvolvimento
+Vim (já no LFS)
+Nano
+Git
+Subversion
+Pkg-config (já no LFS)
+GCC Toolchain (já no LFS)
+
+### Navegador Web
+Firefox (compilado do source ou binário)
+ou Chromium (opcional)
+
+### Aplicativos Básicos
+Feh (visualizador de imagens)
+Leafpad / Mousepad (editor de texto leve)
+LXAppearance (configurações de tema)
